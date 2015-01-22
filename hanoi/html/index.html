@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title> Towers Of Hanoi </title>
+    <link rel="stylesheet" type="text/css" href="../css/hanoi.css">
+  </head>
+  <body>
+    <div class="hanoi">
+
+    </div>
+
+    <script src="../js/jquery-2.1.1.js"></script>
+    <!-- Whackjobs at GithubPages don't understand symlinks... -->
+    <script src="../js/hanoi-core.js"></script>
+    <script src="../js/hanoi-view.js"></script>
+
+    <script>
+    // Write your code here.
+    $(function(){
+      var view = new Hanoi.View(new Hanoi.Game(), $('.hanoi'));
+    });
+    </script>
+  </body>
+</html>

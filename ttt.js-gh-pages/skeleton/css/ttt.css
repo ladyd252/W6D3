@@ -1,0 +1,45 @@
+.ttt{
+  width: 300px;
+  height: 300px;
+  border: 1px solid gray;
+  margin: 0 auto;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border: 2px solid gray;
+  float: left;
+  background: #aaa;
+  text-align: center;
+}
+
+.square:hover {
+  background: yellow;
+}
+
+.row {
+  width: 300px;
+  float: left;
+  display: block;
+  content: "";
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.clicked-x {
+  background: white;
+  color: red;
+}
+
+.clicked-o {
+  background: white;
+  color: blue;
+}
+
+.square > span {
+  font-size: 76px;
+}
